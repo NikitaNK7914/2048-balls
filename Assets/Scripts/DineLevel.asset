@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2beaa835d9d8d4db351c8c9465f480, type: 3}
+  m_Name: DineLevel
+  m_EditorClassIdentifier: 
+  planetPrefab: {fileID: 0}
+  sceneName: 
+  levelID: 0
+  lockedForDemo: 0
+  spawnEnemiesAndScrap: 1
+  PlanetName: 
+  LevelDescription: 
+  videoReel: {fileID: 0}
+  riskLevel: 
+  timeToArrive: 8
+  OffsetFromGlobalTime: 0
+  DaySpeedMultiplier: 1
+  planetHasTime: 1
+  overrideWeather: 0
+  factorySizeMultiplier: 0
+  minScrap: 0
+  maxScrap: 0
+  minTotalScrapValue: 0
+  maxTotalScrapValue: 0
+  maxEnemyPowerCount: 8
+  maxOutsideEnemyPowerCount: 15
+  maxDaytimeEnemyPowerCount: 20
+  enemySpawnChanceThroughoutDay:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  outsideEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  daytimeEnemySpawnChanceThroughDay:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spawnProbabilityRange: 3
+  daytimeEnemiesProbabilityRange: 10
+  levelIncludesSnowFootprints: 0
+  levelIconString: 
